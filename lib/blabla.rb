@@ -1,4 +1,4 @@
-def Blabla
+class Blabla
   WORD_LIST = File.read(File.dirname(__FILE__)+"/randomWords.txt").split
   def self.get_random_words(n)
     WORD_LIST.sample(n)
